@@ -34,13 +34,13 @@ Use the package manager pip to install falcon, gunicorn, httpie, pytest, request
 **Installation of the packages :**
 In order to do that you can open the terminal in the project root folder "Rates-Web-Service" and using the Makefile of the project simply by entering ``make init`` in this terminal.
 
-**Activation of work environments**
+**Activation of work environments : **
 Once done you can activate your work environment in this terminal and in an other terminal in the project root folder "Rates-Web-Service" with this command : `source .venv/bin/activate``
 
-**Server boot**
+**Server boot : **
 Now in the first terminal you can run the server by entering ``make run``
 
-**Client simulation**
+**Client simulation : **
 In the second terminal you can execute this command ``make demo`` which simulates several requests of a client to provide you a demo of this web service.
 
 Authors and akcnowledgment
