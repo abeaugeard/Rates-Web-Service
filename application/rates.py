@@ -84,7 +84,7 @@ class RatesResource:
             return 1
 
     def get_yesterday_date(self):
-        yesterday = date.today() - timedelta(days=1)
+        yesterday = date.today() - timedelta(days=2)
         return yesterday.strftime("%Y-%m-%d")
 
 
