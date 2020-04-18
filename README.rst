@@ -24,12 +24,12 @@ Installation
 
 Use the package manager pip to install falcon, gunicorn, httpie, pytest, requests and requests-cache.
 
-``pip install falcon``
-``pip install gunicorn``
-``pip install httpie``
-``pip install pytest``
-``pip install requests``
-``pip install requests-cache``
+1) ``pip install falcon``
+2) ``pip install gunicorn``
+3) ``pip install httpie``
+4) ``pip install pytest``
+5) ``pip install requests``
+6) ``pip install requests-cache``
 
 **Installation of the packages :**
 In order to do that you can open the terminal in the project root folder "Rates-Web-Service" and using the Makefile of the project simply by entering ``make init`` in this terminal.
