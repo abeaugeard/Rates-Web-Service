@@ -1,0 +1,8 @@
+version: '3.4'
+services:
+  web:
+    image: my-server
+    container_name: server
+    build: .
+    ports:
+    - "8000:8000"
