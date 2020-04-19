@@ -43,6 +43,9 @@ Now in the first terminal you can run the server by entering ``make run``
 **Client simulation :**
 In the second terminal you can execute this command ``make demo`` which simulates several requests of a client to provide you a demo of this web service.
 
+**Test execution :**
+Please, enter ``make test`` in the terminal to execute the tests.
+
 Authors and akcnowledgment
 --------------------------
 
