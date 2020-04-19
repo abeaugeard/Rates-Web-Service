@@ -51,3 +51,6 @@ demo :
 	# *********************************
 	http localhost:8000/rates/status
 
+docker:
+	sudo docker build -t my-server .
+	sudo docker run --rm -it -p 8000:8000 my-server
