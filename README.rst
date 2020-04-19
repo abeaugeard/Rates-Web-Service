@@ -46,6 +46,18 @@ In the second terminal you can execute this command ``make demo`` which simulate
 **Test execution :**
 Please, enter ``make test`` in the terminal to execute the tests.
 
+**DOCKER VERSION :**
+
+Running the server:
+
+1) ``sudo docker-compose up`` in the terminal in the project root folder
+
+Running the demo:
+
+2) ``sudo docker-compose up`` in the terminal in Rates-Web-Service/docker
+3) ``sudo docker run --rm -it --network="host" my-demo`` in the terminal in Rates-Web-Service/docker
+
+
 Authors and akcnowledgment
 --------------------------
 
